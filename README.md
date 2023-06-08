@@ -38,10 +38,12 @@ Flask app for data mining
 5. Verify install
 
 	` python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))" `
+	
+6. Install requirements.txt
 
-6. Install, setup, and run flask
+	` pip install -r requirements.txt `
 
-	` pip install Flask `
+7. Setup and run flask
 
 	` set FLASK_APP=app.py `
 
